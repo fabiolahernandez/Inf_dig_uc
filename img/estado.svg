@@ -10,8 +10,9 @@
 	.st4{enable-background:new    ;}
 	.st5{font-size:20px;}
 	.st6{fill:none;stroke:#686969;stroke-width:0.474;stroke-linecap:round;}
-	.st7{fill:#BB5C0E;}
+	.st7{fill:#C74E0B;}
 	.st8{font-size:30.9223px;}
+	.st9{fill:#C74E0B;}
 </style>
 <g id="lc">
 	<circle class="st0" cx="729.2" cy="191.1" r="27.1"/>
@@ -30,7 +31,7 @@
 	<text transform="matrix(1 0 0 1 481.8506 200.7115)" class="st1 st2 st3">EN</text>
 </g>
 <g id="cr">
-	<circle class="st0" cx="423.7" cy="191.1" r="27.1"/>
+	<circle class="st9" cx="423.7" cy="191.1" r="27.1"/>
 	<text transform="matrix(1 0 0 1 404.764 200.7115)" class="st1 st2 st3">CR</text>
 </g>
 <g id="ew">
