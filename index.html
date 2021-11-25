@@ -56,21 +56,59 @@
             h3 {
                 font-size: calc(1.5rem + 1vw);
             }
+
+            /* Parallax */
+
+            .parallax-header{
+              background: #000;
+              background: linear-gradient(
+                rgba(255,255,255,0.3),
+                rgba(255,255,255,1)
+                ),
+                url(img/bosque_borneo_v02.jpeg);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+            }
+            .header-content{
+            padding: 0 0 0 0;
+            }
+
+            .content{
+            margin-top: -80px;
+            background: #fff;
+          /*  box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.2); */
+            }
         </style>
 
         <title>Orangután de Borneo / JP Astorga</title>
     </head>
+
+<!--BODY / Algunas cosas tienen bordes para entenderlas mejor -->
+
     <body>
-        <header class="container bg-dark">
+
+  <header class="parallax-header">
+  <!-- Container Parallax -->
+  <div class="container">
+    <div class="col-12 header-content">
+  <img src="img/Orangutan_001.png" class="d-block mx-auto w-50">
+    </div>
+  </div>
+
+  <!-- Final Container Parallax -->
+
+  </header>
+
+
+        <header class="container content rounded-3">
             <div class="row">
                 <div class="col-sm-8 mx-auto">
                     <h2 class="text-center pt-5 fst-italic"><span class="px-3 py-1">Pongo pygmaeus</span></h2>
                     <h1 class="text-center py-4">Orangután de Borneo</h1>
-                    <p class="lead">Es el mamífero arbóreo más grande del mundo, lo cual lo hace probablemente uno de los simios más fascinantes que aún existen.  En lengua malaya orang-gutan significa “hombre del bosque”.</p>
+                    <p class="lead text-center ">Es el mamífero arbóreo más grande del mundo, lo cual lo hace probablemente uno de los simios más fascinantes que aún existen.  En lengua malaya orang-gutan significa “hombre del bosque”.</p>
                     <p class="text-center">Diplomado en Infografía UC - Fabiola Hernández y Juan Pablo Astorga</p>
-                </div>
-                <div class="col-sm-12 mx-auto">
-                    <img src="https://larepublica.pe/resizer/7-rp8sSXjjKRyzha0ihor09pRWQ=/1250x735/top/smart/arc-anglerfish-arc2-prod-gruporepublica.s3.amazonaws.com/public/GPF2I6J4DRD77ERC2SNMYDB624.jpg" alt="describa lo que se ve en la imagen" class="w-100 my-3" />
                 </div>
                 <div class="col-sm-11 col-md-8 mx-auto">
                     <h4 class="text-center pt-5 pb-2">Especie en riesgo</h4>
@@ -80,9 +118,86 @@
                 </div>
             </div>
         </header>
+
         <main>
+<section class="container">
+
+<!--PRESENCIA -->
+
+<div class="row">
+  <div class="col-sm-12 mx-auto">
+  <h3 class="text-center pt-5 pb-2">Presencia</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div class="col-sm-12 d-flex justify-content-center">
+    <object data="svg/Mapa_borneo_001.svg" type="image/svg+xml" width="700"></object>
+  </div>
+  <div class="col-sm-12 mx-auto">
+    <img src="img/2x1.png" alt="describa lo que se ve en la imagen" class="w-100 my-3" />
+  </div>
+  </div>
+</div>
+
+<!--./ AQUI TERMINA PRESENCIA -->
+
+
+<!-- CARACTERISTICAS FISICAS -->
+
+<div class="row">
+  <div class="col-sm-12 mx-auto">
+  <h3 class="text-center pt-5 pb-2">Características Físicas</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
+
+<!--./ AQUI TERMINA CARACTERISTICAS FISICAS -->
+
+<!-- COMPORTAMIENTO -->
+
+<div class="row">
+  <div class="col-sm-12 mx-auto">
+  <h3 class="text-center pt-5 pb-2">Comportamiento</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
+
+<!--./ AQUI TERMINA COMPORTAMIENTO -->
+
+
+<!-- ALIMENTACION -->
+
+<div class="row">
+  <div class="col-sm-12 mx-auto">
+  <h3 class="text-center pt-5 pb-2">Alimentación</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
+
+<!--./ AQUI TERMINA ALIMENTACION -->
+
+
+<!-- AMENAZAS -->
+
+<div class="row">
+  <div class="col-sm-12 mx-auto">
+  <h3 class="text-center pt-5 pb-2">Amenazas</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
+
+<!--./ AQUI TERMINA AMENAZAS -->
+
+</section>
+
+
+
+<!--DESDE AQUI PARA ABAJO ES DE FACO-->
+
             <section class="container">
+
                 <div class="row">
+                  <div class="col-12">
+                    <h1 class="text-center">DESDE AQUI PARA ABAJO ES DE FACO</h1>
+                  </div>
                     <div class="col-sm-12 mx-auto">
                         <h3 class="text-center pt-5 pb-2">Presencia</h3>
                         <!--PODEMOS INCLUIR EL SVG DIRECTAMENTE, DESDE AQUÍ A LA LÍNEA 311-->
